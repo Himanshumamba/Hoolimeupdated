@@ -1,0 +1,1 @@
+var expanded=!1;function showCheckboxes(){var e=document.getElementById("checkboxes");expanded?(e.style.display="none",expanded=!1):(e.style.display="block",expanded=!0)}

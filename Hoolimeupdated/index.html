@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style/mystyle.css">
+   </head>
+   <title> Hoolime Signup</title>
+   <body>
+      <form action="#" >
+         <div class="logo">
+            <img src="images/logo.png" alt="example" class="logo"/>
+         </div>
+         <div class="container">
+            <div class="clearfix">
+               <button type="button" class="cancelbtn">Sign in</button>
+               <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+            <h2 class="cot_hed">Sign Up</h2>
+            <div class="content">
+               <label ><b>Name</b></label>
+               <input type="text" placeholder="Enter name"  required>
+               <div class="work">
+                  <label ><b>Specialities</b></label>
+                  <!-- <select id="sel" size = "2" >
+                     <option  value="Allergists/Immunologists">Allergists/Immunologists  </option>  <span class="check" style="float: right;">&#x2611;</span>
+                     <option>Anesthesiologists  </option> 
+                     <option>Cardiologists</option>
+                     <option>Colon and Rectal Surgeons</option>
+                     </select> -->
+                  <div class="multiselect">
+                     <div class="selectBox" onclick="showCheckboxes()">
+                        <select>
+                           <option> Anesthesiologists /Immunolog,Anesthesiologists</option>
+                        </select>
+                        <div class="overSelect"></div>
+                     </div>
+                     <div id="checkboxes">
+                        <label for="one">
+                        <input type="checkbox" id="one" /> Immunolog <span></span></label>
+                        <label for="two">
+                        <input type="checkbox" id="two" />Anesthesiologists  <span></span> </label>
+                        <label for="three">      
+                        <input type="checkbox" id="three" />Immunolog <span></span>  </label>
+                        <label for="four">
+                        <input type="checkbox" id="four" />Cardiologists<span></span>  </label>
+                        <label for="five">
+                        <input type="checkbox" id="five" />Colon and Rectal Surgeons <span></span> </label>
+                     </div>
+                  </div>
+                  <div class="clearfix"></div>
+               </div>
+               <label><b>Email</b></label>
+               <input type="text"  placeholder="Enter Email" name="email" required>
+               <label><b>Password</b></label>
+               <input type="password" placeholder=" Password" name="psw" required>
+               <div class="subm_btm" >
+                  <button type="submit" class="signupbtnbtm">Sign Up</button>
+               </div>
+            </div>
+         </div>
+      </form>
+      <script type="text/javascript" src="script/myApp.js"></script>
+   </body>
+</html>
